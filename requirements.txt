@@ -1,0 +1,12 @@
+# Python >=3.11 recommended; actual verified versions are in requirements-lock.txt.
+numpy>=1.26,<3
+pandas>=2.2,<4
+matplotlib>=3.8,<4
+scikit-learn>=1.5,<2
+scipy>=1.12,<2
+joblib>=1.3,<2
+threadpoolctl>=3.2,<4
+python-pptx>=1.0,<2
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6.29,<8

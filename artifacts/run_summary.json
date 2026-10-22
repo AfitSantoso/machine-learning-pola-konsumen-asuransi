@@ -1,0 +1,80 @@
+{
+  "synthetic": true,
+  "seed": 26,
+  "created_at": "2026-10-22T17:07:07.536062+07:00",
+  "audit": {
+    "rows": 136276,
+    "customers": 6000,
+    "months": 45,
+    "duplicate_keys": 0,
+    "churn_prevalence": 0.02953564824327101,
+    "missing_by_column": {
+      "customer_id": 0,
+      "snapshot_date": 0,
+      "feature_as_of": 0,
+      "label_end_date": 0,
+      "entry_date": 0,
+      "is_inception_cohort": 0,
+      "age": 0,
+      "region": 831,
+      "product": 0,
+      "income_band": 0,
+      "tenure_months": 0,
+      "premium_idr": 0,
+      "income_monthly_idr": 0,
+      "premium_change_pct": 0,
+      "economic_stress_index": 0,
+      "months_to_renewal": 0,
+      "late_payments_3m": 0,
+      "complaints_3m": 0,
+      "claims_3m": 0,
+      "days_since_contact": 0,
+      "app_sessions_1m": 1643,
+      "churn_next_month": 0,
+      "premium_to_income": 0,
+      "renewal_payment_interaction": 0
+    }
+  },
+  "churn_model": "logistic_regression",
+  "churn_test": {
+    "rows": 18585,
+    "positives": 670,
+    "prevalence": 0.03605057842345978,
+    "roc_auc": 0.7823238260275512,
+    "average_precision": 0.1936268152436522,
+    "brier": 0.031901180497266896,
+    "precision_at_10pct": 0.14070891514500536,
+    "recall_at_10pct": 0.39104477611940297,
+    "lift_at_10pct": 3.903097295477499
+  },
+  "customer_bootstrap_intervals": {
+    "average_precision": {
+      "lower_95": 0.16446276247557803,
+      "upper_95": 0.22226279698759627
+    },
+    "lift_at_10pct": {
+      "lower_95": 3.4885055024652067,
+      "upper_95": 4.216450725063263
+    }
+  },
+  "acquisition_model": "poisson_regression",
+  "acquisition_test": {
+    "region_week_mae": 4.000692520619346,
+    "weekly_total_mae": 10.818826965802453,
+    "weekly_total_wape": 0.07636290571668744,
+    "poisson_deviance": 0.9378073354144013
+  },
+  "descriptive_event_rates": {
+    "pre_hike": 0.02187068690943837,
+    "immediate": 0.023889154323936932,
+    "delayed": 0.06708198909778618
+  },
+  "validation_top_features": [
+    "renewal_payment_interaction",
+    "late_payments_3m",
+    "days_since_contact",
+    "premium_to_income",
+    "months_to_renewal"
+  ],
+  "validation_threshold": 0.05243771501257525
+}

@@ -1,0 +1,33 @@
+{
+  "rows": 136276,
+  "customers": 6000,
+  "months": 45,
+  "duplicate_keys": 0,
+  "churn_prevalence": 0.02953564824327101,
+  "missing_by_column": {
+    "customer_id": 0,
+    "snapshot_date": 0,
+    "feature_as_of": 0,
+    "label_end_date": 0,
+    "entry_date": 0,
+    "is_inception_cohort": 0,
+    "age": 0,
+    "region": 831,
+    "product": 0,
+    "income_band": 0,
+    "tenure_months": 0,
+    "premium_idr": 0,
+    "income_monthly_idr": 0,
+    "premium_change_pct": 0,
+    "economic_stress_index": 0,
+    "months_to_renewal": 0,
+    "late_payments_3m": 0,
+    "complaints_3m": 0,
+    "claims_3m": 0,
+    "days_since_contact": 0,
+    "app_sessions_1m": 1643,
+    "churn_next_month": 0,
+    "premium_to_income": 0,
+    "renewal_payment_interaction": 0
+  }
+}

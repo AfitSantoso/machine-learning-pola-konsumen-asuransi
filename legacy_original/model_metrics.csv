@@ -1,0 +1,10 @@
+positives,1334.0
+test_rows,37355.0
+prevalence,0.0357
+roc_auc,0.5782
+pr_auc,0.052
+baseline_roc_auc,0.6073
+baseline_pr_auc,0.0605
+precision_at_10pct,0.0651
+recall_at_10pct,0.1822
+lift_at_10pct,1.82
